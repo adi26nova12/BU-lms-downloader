@@ -2,7 +2,7 @@
 
 A fast, reliable Python tool to download all course materials from Bennett University LMS. Uses direct authentication (no browser needed).
 
-## ⭐ Features
+## Features
 
 - ✅ **Direct Authentication** - Fast login without browser automation
 - ✅ **Multi-Course** - Auto-downloads from all your courses
@@ -16,7 +16,7 @@ A fast, reliable Python tool to download all course materials from Bennett Unive
 - ✓ **Detailed Progress** - Shows download status and summary
 - ✓ **Cross-platform** - Works on Windows, Mac, and Linux
 
-## 📥 Installation
+## Installation
 
 Install Python 3.7+ then run:
 ```bash
@@ -25,13 +25,6 @@ pip install -r requirements.txt
 
 Or just double-click the batch file - it handles everything!
 
-## Usage
-
-**Easiest way:** Double-click `run.cmd` and enter your LMS credentials when prompted!
-
-```
-run.cmd
-```
 
 ## Usage
 
@@ -60,7 +53,7 @@ python lms_downloader.py "https://lms.bennett.edu.in/course/view.php?id=13571"
 ```
 This will open a browser - log in manually if credentials aren't provided.
 
-## 📂 Download Structure
+## Download Structure
 
 Files are organized by course and type:
 
@@ -81,7 +74,7 @@ lms_downloads/
     └── ...
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
